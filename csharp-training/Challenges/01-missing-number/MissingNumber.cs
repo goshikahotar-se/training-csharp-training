@@ -21,6 +21,6 @@ public class MissingNumber
         
         int[] input = [1, 2, 3, 4, 5];
         int result = MissingNumberInArray(input);
-        Console.WriteLine(result);
+        Console.WriteLine("01-missing-number: " + result);
     }
 }

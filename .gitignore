@@ -1,3 +1,6 @@
+# Rider / IntelliJ — ignore entire IDE folder
+.idea/
+
 # Common IntelliJ Platform excludes
 
 # User specific

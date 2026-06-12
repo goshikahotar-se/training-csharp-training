@@ -11,7 +11,7 @@ public class LinqPricesWarmup
             .Select(p => p*2)
             .OrderBy(p => p)
             .ToList();
-        
+        Console.WriteLine("02-linq-prices: ");
         Console.WriteLine(string.Join(",", result));
     }
 }

@@ -2,5 +2,6 @@
 
 public class GroupedProductResult
 {
-    
+    public string ProductName { get; set; }
+    public double TotalPrice { get; set; }
 }

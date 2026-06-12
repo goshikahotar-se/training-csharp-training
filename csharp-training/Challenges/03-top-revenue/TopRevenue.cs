@@ -1,8 +1,14 @@
 ﻿namespace csharp.Challenges._03_top_revenue;
 
-public class Product
+public class TopRevenue
 {
     public static void Run()
+    {
+        var listOfItems = ListOfItems();
+        GetTop3ProductNamesByRevenue(listOfItems);
+    }
+
+    private static List<SaleLine> ListOfItems()
     {
         List<SaleLine> listOfItems = new List<SaleLine>
         {
@@ -11,9 +17,7 @@ public class Product
             new() { ProductId = 103, ProductName = "Eraser", Quantity = 100, UnitPrice = 2, StoreId = 1 },
             new() { ProductId = 102, ProductName = "ClearBag", Quantity = 30, UnitPrice = 20, StoreId = 1 }
         };
-
-
-        GetTop3ProductNamesByRevenue(listOfItems);
+        return listOfItems;
     }
 
     private static void GetTop3ProductNamesByRevenue(List<SaleLine> listOfItems)
@@ -30,6 +34,7 @@ public class Product
 
         foreach (var item in groupedProducts)
         {
+            Console.WriteLine("03-top-revenue");
             Console.WriteLine("ProductName: " + item.ProductName);
             Console.WriteLine("Total Price: " + item.TotalPrice);
         }
