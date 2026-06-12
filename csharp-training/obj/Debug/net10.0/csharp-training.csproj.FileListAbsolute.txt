@@ -1,0 +1,14 @@
+C:\code\csharp-fundamentals\csharp-training\csharp-training\bin\Debug\net10.0\csharp-training.exe
+C:\code\csharp-fundamentals\csharp-training\csharp-training\bin\Debug\net10.0\csharp-training.deps.json
+C:\code\csharp-fundamentals\csharp-training\csharp-training\bin\Debug\net10.0\csharp-training.runtimeconfig.json
+C:\code\csharp-fundamentals\csharp-training\csharp-training\bin\Debug\net10.0\csharp-training.dll
+C:\code\csharp-fundamentals\csharp-training\csharp-training\bin\Debug\net10.0\csharp-training.pdb
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.AssemblyInfoInputs.cache
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.AssemblyInfo.cs
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.csproj.CoreCompileInputs.cache
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.dll
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\refint\csharp-training.dll
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.pdb
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\csharp-training.genruntimeconfig.cache
+C:\code\csharp-fundamentals\csharp-training\csharp-training\obj\Debug\net10.0\ref\csharp-training.dll
