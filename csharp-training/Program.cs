@@ -1,13 +1,14 @@
 ﻿using csharp.Challenges._01_missing_number;
 using csharp.Challenges._02_linq_prices;
 using csharp.Challenges._03_top_revenue;
+using csharp.Challenges._04_customers_over_threshold;
 
 namespace csharp;
 
 class CSharpTraining
 {
     static void Main(string[] args)
-    {
+    {/*
         //01-missing-number
         MissingNumber.Run();
         
@@ -15,6 +16,9 @@ class CSharpTraining
         LinqPricesWarmup.Run();
         
         //03-top-revenue
-        TopRevenue.Run();
+        TopRevenue.Run(); */
+        
+        //04-customers-over-threshold
+        CustomersOverThreshold.Run();
     }
 }

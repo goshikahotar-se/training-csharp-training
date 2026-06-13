@@ -1,4 +1,6 @@
-﻿namespace csharp.Challenges._03_top_revenue;
+﻿using csharp.Challenges.Shared;
+
+namespace csharp.Challenges._03_top_revenue;
 
 public class TopRevenue
 {
@@ -32,9 +34,10 @@ public class TopRevenue
             .OrderByDescending(computedAmountPerProductId => computedAmountPerProductId.TotalPrice)
             .Take(3);
 
+        Console.WriteLine("03-top-revenue");
+        
         foreach (var item in groupedProducts)
         {
-            Console.WriteLine("03-top-revenue");
             Console.WriteLine("ProductName: " + item.ProductName);
             Console.WriteLine("Total Price: " + item.TotalPrice);
         }

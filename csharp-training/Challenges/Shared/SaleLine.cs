@@ -1,4 +1,4 @@
-﻿namespace csharp.Challenges._03_top_revenue;
+﻿namespace csharp.Challenges.Shared;
 
 public class SaleLine
 {
