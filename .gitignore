@@ -24,6 +24,9 @@
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
 
+# Rider / ReSharper user-specific settings
+*.DotSettings.user
+
 *.suo
 *.user
 .vs/
