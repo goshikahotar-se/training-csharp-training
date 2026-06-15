@@ -2,6 +2,7 @@
 using csharp.Challenges._02_linq_prices;
 using csharp.Challenges._03_top_revenue;
 using csharp.Challenges._04_customers_over_threshold;
+using csharp.Challenges._05_cart_stock_validation;
 
 namespace csharp;
 
@@ -19,6 +20,9 @@ class CSharpTraining
         TopRevenue.Run(); */
         
         //04-customers-over-threshold
-        CustomersOverThreshold.Run();
+        //CustomersOverThreshold.Run();
+        
+        //05-cart-stock-validation
+        CartStockValidation.Run();
     }
 }

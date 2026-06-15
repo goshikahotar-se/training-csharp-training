@@ -1,0 +1,24 @@
+﻿What?
+Our stores sell products with limited stock. Build a small shopping cart that can add products with validation.
+
+Required behavior
+Implement AddToCart(int productId, int quantity) that:
+ 1. Adds the product to the cart (or increases quantity if already in cart)
+ 2. Validates before changing the cart
+ 
+Validation Rules
++---------------------------------------------------------------+-----------------------------+
+| Rule                                                          | If violated                 |
++---------------------------------------------------------------+-----------------------------+
+| quantity must be greater than 0                               | Reject with a clear message |
++---------------------------------------------------------------+-----------------------------+
+| Product must exist in the catalog                             | Reject                      |
++---------------------------------------------------------------+-----------------------------+
+| Total quantity in cart (existing + new) must not exceed       | Reject                      |
+| available stock                                               |                             |
++---------------------------------------------------------------+-----------------------------+
+
+On success: update the cart and return normally.
+On failure: do not modify the cart — throw an exception or return a result object (your choice; be ready to explain why).
+
+Also implement GetCartTotal() — sum of quantity × unitPrice for all items in the cart.
