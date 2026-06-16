@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Challenges\05-cart-stock-validation\Application\InputTestData\" />
+      <Folder Include="Challenges\05-cart-stock-validation\Infrastructure\" />
+    </ItemGroup>
+
 </Project>
