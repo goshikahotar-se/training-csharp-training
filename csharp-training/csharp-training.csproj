@@ -10,6 +10,7 @@
     <ItemGroup>
       <Folder Include="Challenges\05-cart-stock-validation\Application\InputTestData\" />
       <Folder Include="Challenges\05-cart-stock-validation\Infrastructure\" />
+      <Folder Include="Challenges\06-retail-back-office-system\Infrastructure\" />
     </ItemGroup>
 
 </Project>
