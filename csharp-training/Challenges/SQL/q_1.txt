@@ -1,0 +1,29 @@
+﻿-- Customers
+Customers (CustomerId, Name, City)
+
+-- Stores
+Stores (StoreId, Name, City)
+
+-- Products
+Products (ProductId, Name, Category, UnitPrice)
+
+-- Stock per store
+Stock (StoreId, ProductId, QuantityAvailable)
+
+-- Orders (header)
+Orders (OrderId, CustomerId, StoreId, OrderDate)
+
+-- Order lines (detail)
+OrderLines (OrderLineId, OrderId, ProductId, Quantity, UnitPrice)
+-- UnitPrice = price at time of order (may differ from Products.UnitPrice)
+
+Question 1 — Filter + JOIN (warm-up)
+List all order lines from 2026 with:
+
+customer name
+product name
+quantity
+line total (Quantity × UnitPrice)
+Sort by order date, newest first.
+
+Customers, Products, Orders, OrderLines
