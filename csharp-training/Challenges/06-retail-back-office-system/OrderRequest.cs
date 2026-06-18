@@ -52,12 +52,12 @@ public class OrderRequest
 
     private static void PlaceOrderRequest(IPlaceOrder placeOrderRequest, List<StoreLineRequest> requestPurchaseItems, int storeId)
     {
-        var orderA = placeOrderRequest
+        var order = placeOrderRequest
             .PlaceOrder(storeId,
                 99,
                 requestPurchaseItems);
 
-        PrintResult(orderA, placeOrderRequest.GetCartTotal());
+        PrintResult(order, placeOrderRequest.GetCartTotal());
     }
 
     private static void PrintResult(PurchaseStatus status, OrderReceipt receipt)
