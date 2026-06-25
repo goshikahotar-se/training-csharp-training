@@ -4,6 +4,8 @@ using csharp.Challenges._03_top_revenue;
 using csharp.Challenges._04_customers_over_threshold;
 using csharp.Challenges._05_cart_stock_validation;
 using csharp.Challenges._06_retail_back_office_system;
+using csharp.Challenges._07_car_rental_days_calculation;
+using csharp.Challenges._08_mad_user_date_input;
 
 namespace csharp;
 
@@ -27,6 +29,12 @@ class CSharpTraining
         //CartStockValidation.Run();
         
         //06-retail-back-office-system
-        OrderRequest.Run();
+        //OrderRequest.Run();
+        
+        //07-car-rental-days-calculation
+        //CalculateNumberOfDays.Run();
+        
+        //08-mad-user-date-input
+        ValidateUserInputs.Run();
     }
 }
