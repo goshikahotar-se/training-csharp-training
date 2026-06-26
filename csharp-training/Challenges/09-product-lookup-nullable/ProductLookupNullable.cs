@@ -12,10 +12,8 @@ public class ProductLookupNullable
         Product item2 = new Product { Code = "BOOK", Name = "Notebook", Price = 50 };
         Product item3 = new Product { Code = "BAG", Name = "Bag", Price = 150 };
         
-        productItems.Add(item1.Code, item1);
-        productItems.Add(item2.Code, item2);
-        productItems.Add(item3.Code, item3);
-        
+        AddProductItemsToDictionary(productItems, item1, item2, item3);
+
         bool breakLoop = false;
 
         while (true)
@@ -46,7 +44,14 @@ public class ProductLookupNullable
                 break;
         }
     }
-    
+
+    private static void AddProductItemsToDictionary(Dictionary<string, Product> productItems, Product item1, Product item2, Product item3)
+    {
+        productItems.Add(item1.Code, item1);
+        productItems.Add(item2.Code, item2);
+        productItems.Add(item3.Code, item3);
+    }
+
     private static Product? FindProductByCode(Dictionary<string, Product> productItems, string code)
     {
         if (productItems.TryGetValue(code, out Product? item))
