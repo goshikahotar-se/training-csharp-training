@@ -6,6 +6,7 @@ using csharp.Challenges._05_cart_stock_validation;
 using csharp.Challenges._06_retail_back_office_system;
 using csharp.Challenges._07_car_rental_days_calculation;
 using csharp.Challenges._08_mad_user_date_input;
+using csharp.Challenges._09_product_lookup_nullable;
 
 namespace csharp;
 
@@ -35,6 +36,9 @@ class CSharpTraining
         //CalculateNumberOfDays.Run();
         
         //08-mad-user-date-input
-        ValidateUserInputs.Run();
+        //ValidateUserInputs.Run();
+        
+        //09-product-lookup-nullable
+        ProductLookupNullable.Run();
     }
 }
